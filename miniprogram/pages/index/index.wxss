@@ -1,0 +1,150 @@
+/**index.wxss**/
+
+page {
+  background: #fdfffe;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.banner {
+  width: 100%;
+  height: 240rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 240rpx;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2rpx solid #fe104d;
+  border-radius: 100rpx;
+  margin: 30rpx 30rpx;
+  height: 100rpx;
+}
+
+.view-input {
+  width: 70%;
+  position: relative;
+}
+
+.search-input {
+  padding: 20rpx 60rpx 20rpx 40rpx;
+}
+
+.close-image {
+  position: absolute;
+  width: 36rpx;
+  height: 36rpx;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.view-button {
+  width: 30%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ff3183), to(#ff102b));
+  background-image: linear-gradient(to left, #ff3183, #ff102b);
+  border-radius: 0;
+  border-top-right-radius: 100rpx;
+  border-bottom-right-radius: 100rpx;
+}
+
+.view-button:hover {
+  background-image: none;
+  background-color: #ff0b22;
+}
+
+.search-image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.search-button {
+  font-size: 36rpx;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0 15rpx;
+}
+
+.page-video {
+  display: flex;
+  flex-flow: column;
+  height: calc(100vh - 160rpx);
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.desc {
+  display: flex;
+  height: 70rpx;
+  margin: 30rpx 30rpx 0 30rpx;
+}
+
+.desc-text {
+  width: 540rpx;
+  background-color: #f1f2f5;
+  border-bottom-left-radius: 8rpx;
+  border-top-left-radius: 8rpx;
+  color: rgba(47, 48, 53, .4);
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: 28rpx;
+  height: 70rpx;
+  overflow: hidden;
+  padding: 15rpx 16rpx;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.desc-copy {
+  align-items: center;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: center;
+  margin: 0;
+  padding: 5.5px 11px 5px;
+  background-color: #fe2c55;
+  color: #fff;
+}
+
+.download-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30rpx 0;
+}
+
+.download-button {
+  font-size: 36rpx;
+  color: #ffffff;
+  background-color: #fe2c55;
+  border-radius: 100rpx;
+  padding: 0 60rpx;
+}
+
+.copy-button {
+  font-size: 36rpx;
+  color: #ffffff;
+  background-color: #2f3035;
+  border-radius: 100rpx;
+  padding: 0 60rpx;
+}

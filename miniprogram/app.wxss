@@ -1,0 +1,32 @@
+/**app.wxss**/
+
+.container {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: PingFangSC-Light, helvetica, 'Heiti SC';
+}
+
+view,
+image,
+text,
+navigator {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+view,
+text {
+  font-family: PingFangSC-Light, helvetica, 'Heiti SC';
+  font-size: 29rpx;
+  color: #333;
+}
+
+button::after {
+  border: none;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 0;
+}
