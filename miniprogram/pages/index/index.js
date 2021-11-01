@@ -55,6 +55,14 @@ Page({
     })
   },
 
+  onShareAppMessage: function() { 
+    return { 
+      title: '去水印', 
+      desc: '一键去水印', 
+      path: '/pages/index/index' 
+    } 
+  }, 
+
   // 搜索框事件
   bindKeyInput: function (e) {
     this.setData({
